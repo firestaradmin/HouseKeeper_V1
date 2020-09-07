@@ -1,0 +1,32 @@
+波特率 9600
+1） 设置 wifi 模式：
+AT+CWMODE=3 //设置为 softAP+station 共存模式
+2） 重启生效
+AT+RST
+响应：OK
+6 6 /  13  Espressif Systems  June 27, 2014
+3） 连接路由
+AT+CWJAP="ssid","password" // 传入路由的ssid 和 password
+响应：OK
+4） 查询设备IP
+AT+CIFSR
+响应：192.168.3.106 //返回设备的 IP 地址
+6） 设备连接服务器
+AT+CIPSTART="TCP","120.55.45.151",8888 //传入协议、服务器 IP、端口号
+7） 开启透传模式
+AT+CIPMODE=1
+响应：OK
+8） 开始透传
+AT+CIPSEND
+响应： > // 从此时开始，串口输入的字符会透传到服务器端
+9)
+"{"opreation":"close","Note":"帅气庚庚"}"
+响应：[OK]
+10） 结束透传
++++
+11) 断开TCP
+AT+CIPCLOSE
+return：
+	OK
+	Unlink
+

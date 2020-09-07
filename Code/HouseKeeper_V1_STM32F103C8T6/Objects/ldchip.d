@@ -1,0 +1,36 @@
+.\objects\ldchip.o: HARDWARE\LD3320\LDChip.c
+.\objects\ldchip.o: HARDWARE\LD3320\ldchip.h
+.\objects\ldchip.o: .\User\sys.h
+.\objects\ldchip.o: .\Lib\CMSIS\stm32f10x.h
+.\objects\ldchip.o: .\Lib\CMSIS\core_cm3.h
+.\objects\ldchip.o: D:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\ldchip.o: .\Lib\CMSIS\system_stm32f10x.h
+.\objects\ldchip.o: .\User\stm32f10x_conf.h
+.\objects\ldchip.o: .\Lib\FWLib\inc\stm32f10x_adc.h
+.\objects\ldchip.o: .\Lib\CMSIS\stm32f10x.h
+.\objects\ldchip.o: .\Lib\FWLib\inc\stm32f10x_bkp.h
+.\objects\ldchip.o: .\Lib\FWLib\inc\stm32f10x_can.h
+.\objects\ldchip.o: .\Lib\FWLib\inc\stm32f10x_cec.h
+.\objects\ldchip.o: .\Lib\FWLib\inc\stm32f10x_crc.h
+.\objects\ldchip.o: .\Lib\FWLib\inc\stm32f10x_dac.h
+.\objects\ldchip.o: .\Lib\FWLib\inc\stm32f10x_dbgmcu.h
+.\objects\ldchip.o: .\Lib\FWLib\inc\stm32f10x_dma.h
+.\objects\ldchip.o: .\Lib\FWLib\inc\stm32f10x_exti.h
+.\objects\ldchip.o: .\Lib\FWLib\inc\stm32f10x_flash.h
+.\objects\ldchip.o: .\Lib\FWLib\inc\stm32f10x_fsmc.h
+.\objects\ldchip.o: .\Lib\FWLib\inc\stm32f10x_gpio.h
+.\objects\ldchip.o: .\Lib\FWLib\inc\stm32f10x_i2c.h
+.\objects\ldchip.o: .\Lib\FWLib\inc\stm32f10x_iwdg.h
+.\objects\ldchip.o: .\Lib\FWLib\inc\stm32f10x_pwr.h
+.\objects\ldchip.o: .\Lib\FWLib\inc\stm32f10x_rcc.h
+.\objects\ldchip.o: .\Lib\FWLib\inc\stm32f10x_rtc.h
+.\objects\ldchip.o: .\Lib\FWLib\inc\stm32f10x_sdio.h
+.\objects\ldchip.o: .\Lib\FWLib\inc\stm32f10x_spi.h
+.\objects\ldchip.o: .\Lib\FWLib\inc\stm32f10x_tim.h
+.\objects\ldchip.o: .\Lib\FWLib\inc\stm32f10x_usart.h
+.\objects\ldchip.o: .\Lib\FWLib\inc\stm32f10x_wwdg.h
+.\objects\ldchip.o: .\Lib\FWLib\inc\misc.h
+.\objects\ldchip.o: HARDWARE\LD3320\reg_rw.h
+.\objects\ldchip.o: .\SYSTEM\delay\delay.h
+.\objects\ldchip.o: .\SYSTEM\USART\usart.h
+.\objects\ldchip.o: D:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
